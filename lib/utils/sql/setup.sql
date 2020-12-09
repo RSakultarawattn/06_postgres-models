@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS lightsabers;
+
+CREATE TABLE lightsabers (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  color TEXT NOT NULL,
+  description TEXT,
+  
+);
